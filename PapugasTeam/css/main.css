@@ -1,0 +1,320 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    color: skyblue;
+    margin-left: 350px;
+    font-size: 25px;
+}
+
+header{
+    background-image: url(../img/Background-forest2.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    filter: opacity(.9);
+    background-size: cover;
+    background-position: 0px 5%;
+}
+
+.learn-link-hero{
+    display: inline-block;
+    padding: 15px;
+    border: solid 2px;
+    margin-top: 15px;
+    border-radius: 10px 10px 30px 30px;
+    color: steelblue;
+    text-decoration: none;
+}
+
+.learn-link-hero:hover{
+    color: skyblue;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    margin: 20px;
+    text-align: left;
+    border: none;
+
+}
+
+.story-img{
+    height: 250px;
+    width: 250px;
+    margin-right: 150px;
+}
+
+.story-text{
+    width: 35%;
+}
+
+.learn-link-story{
+    display: inline-block;
+    padding: 15px;
+    border: solid 2px;
+    margin-top: 15px;
+    border-radius: 10px 75px 75px 10px;
+    color: steelblue;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.learn-link-story:hover{
+    color: rgb(137, 207, 235);
+}
+
+.border-nav-but{
+    color: rgba(255, 255, 255, 0.24);
+    list-style: none;
+    padding: 15px 25px;    
+    display: flex;
+    justify-content: space-around;
+    width: 38%;
+    margin: auto 125px;
+    text-decoration-color: skyblue;
+    font-size: 20px;
+}
+
+.nav-but{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    border-right: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 45%;
+    padding: 6px 8px;
+    transition: .5s;
+}
+
+.nav-but:hover{
+    color: skyblue;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-radius: 50%;
+}
+
+.hero{
+    font-size: 24px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 105px;
+    text-align: center;
+    color:#fff;
+    padding: 15px;
+}
+.hero > p::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 20px auto;
+    background-color: grey;
+}
+.hero-h2{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.watch{
+    font-size: 29px;
+    padding: 270px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/Background-forest2.jpg);
+    height: 850px;
+    background-position: 0 40%;
+    background-size: cover;
+}
+
+.watch svg{
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.expertise{
+    color: rgb(77, 77, 77);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.expertise > p::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 20px auto 55px auto;
+    background-color: rgb(150,150,150);
+}
+
+.expertise p{
+    color: rgb(150,150,150);
+}
+
+.exp-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 60%;
+    align-items: center;
+}
+
+.exp-grid li{
+    width: 33%;
+    height: 280px;
+    padding: 45px 20px 15px 20px;
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+    overflow: hidden;
+}
+
+.exp-borderR{
+    border-right: solid 2px rgb(218, 218, 218);
+}
+
+.exp-borderB{
+    border-bottom: solid 2px rgb(218, 218, 218);
+}
+
+
+.team{
+    background-image: url(../img/Background-forest2.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+    height: 850px;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+}
+
+.team > p::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 20px auto 55px auto;
+    background-color: rgb(206, 206, 206);
+}
+
+.team-pic{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 70px auto;
+}
+
+.team li{
+    width: 350px;
+    height: 466px;
+
+}
+
+.team-pic-set{
+    border-radius: 5% 5% 0px 0px;
+}
+
+.team-pic div{
+    margin: -3px auto;
+    border: solid grey;
+    padding-bottom: 30px;
+    color: rgb(206, 206, 206);
+    box-sizing: border-box;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.fio{
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.team-but{
+    display: block;
+    width: 7%;
+    margin: 25px auto;
+    padding: 10px 15px;
+    border: solid 2px;
+    border-radius: 10px 10px 30px 30px;
+    color: steelblue;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+}
+
+.team-but:hover{
+    color: skyblue;
+}
+
+.works{
+    box-sizing: border-box;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 55px; 
+}
+
+.works-text{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 55px auto;
+    width: 60%;
+    justify-content: space-between;
+
+}
+
+.works-pic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.works-pic li{
+    width: 300px;
+    height: 168px;
+    padding: 0px 15px 0px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.learn-link-works{
+    display: block;
+    width: 115px;
+    margin: 75px auto;
+    padding: 10px 10px;
+    border: solid 2px;
+    border-radius: 10px 10px 30px 30px;
+    color: steelblue;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+}
+
+.learn-link-works:hover{
+    color: rgb(137, 207, 235);
+}
